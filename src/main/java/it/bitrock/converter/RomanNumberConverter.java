@@ -28,7 +28,7 @@ public class RomanNumberConverter {
     }
 
 
-    public static Integer RomanConverte(String romanNumber) {
+    public static Integer romanConverter(String romanNumber) {
         Integer result = 0;
         if (RomanNumberValidator.isValid(romanNumber)) {
             for (int i = romanNumber.length() - 1; i >= 0; i--) {
