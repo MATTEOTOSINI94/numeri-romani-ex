@@ -8,9 +8,9 @@ public class RomanNumberConverterTest {
 
     @Test
     void romanConverter(){
-        Assertions.assertEquals(17, romanNumberConverter.RomanConverte("XVII"));
-        Assertions.assertEquals(null,romanNumberConverter.RomanConverte(null));
-        Assertions.assertEquals(null,romanNumberConverter.RomanConverte("shjshkaj"));
+        Assertions.assertEquals(17, romanNumberConverter.romanConverter("XVII"));
+        Assertions.assertEquals(null,romanNumberConverter.romanConverter(null));
+        Assertions.assertEquals(null,romanNumberConverter.romanConverter("shjshkaj"));
 
         Assertions.assertEquals(319,romanNumberConverter.romanNumberConverter("CCCXIX"));
         Assertions.assertEquals(null,romanNumberConverter.romanNumberConverter(null));
