@@ -9,12 +9,6 @@ import static it.bitrock.model.RomanNumber.romanNumbers;
 
 public class RomanNumberConverter {
 
-    // implementare il medoto (BONUS: se si riesce ricorsivamente)
-    // itearare su una stringa, parsing
-    // get element from a Map
-    // ad ogni giro andiamo ad aggiungere al result il valore attraverso la chiave (ci aspettiamo una stringa nella mappa come chiave)
-    // se troviamo un numero più grande rispetto a quello precedente - avendo già aggiunto al calcolo quello precedente lo  moltiplicandolo per due annullando il calcolo precedente
-    // calcolo ciclo inverso avendo già calcolato il numero andiamo a sottrarre solo quello
 
     public static Integer romanNumberConverter(String aRomanNumber) {
         Integer add = 0;
